@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Om | Portfolio Website</title>
+   <link rel="icon" type="image/x-icon" href="./images/favicon1.png">
+   <link rel="stylesheet" href="./style.css">
+   <script src="./index.js" defer></script>
+   <script src="https://kit.fontawesome.com/73823ee1b9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <header id="home">
+      <div class="container">
+         <nav class="navbar">
+            <img class="logo" src="./images/logo.png" alt="">
+            <ul id="sidemenu" class="nav-links">
+               <li><a href="#home">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#skill">Skills</a></li>
+               <li><a href="#portfolio">Portfolio</a></li>
+               <li><a href="#contact">Contact</a></li>
+               <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+         </nav>
+         <div class="hero">
+            <div class="header-img">
+               <img src="./images/profile-pic.png" alt="">
+            </div>
+            <div class="header-content">
+               <p>Hi, I am</p>
+               <h1><span>Om </span>Saxena</h1>
+               <h1 class="small">Frontend Developer</h1>
+
+               <div class="header-btns">
+                  <a class="cv" download href="./images/OmSaxenaResume.pdf">Download CV</a>
+                  <a class="info" href="#contact">Contact Info</a>
+               </div>
+
+               <div class="header-link">
+                  <a href="https://www.linkedin.com/in/om-saxena-002078210/" target="_blank"><i class="fa-brands fa-linkedin fa-bounce"></i></a>
+                  <a href="https://github.com/Otaku-Om" target="_blank"><i class="fa-brands fa-github fa-bounce"></i></a>
+               </div>
+            </div>
+         </div>
+         
+
+      </div>
+   </header>
+   <!--                    about                 -->
+
+   <section id="about">
+      <div class="container">
+         <div class="row">
+            <div class="about-col-1">
+               <img src="./images/hrithik.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+               <h2 class="sub-title">About me</h2>
+               <p>Recent graduate with a degree in computer science and a passion for software and web development. As a passionate front-end developer, I develop complex interfaces with expertise in HTML, CSS, JS, Python and various front-end frameworks. Aspiring to combine the learning mind, the great energy with strong technical skills to excel as a Front-End Developer</p>
+
+               <div class="tab-titles">
+                  <p class="tab-links active-link">Education</p>
+                  <p class="tab-links">Experience</p>
+               </div>
+
+               <div id="Education" class="tab-contents active-tab">
+                  <ul>
+                     <li><span>2016-2017</span><br>Highschool from B.B.S.S.M Inter College, Meerut<br>Percentage : <span>85.5</span></li>
+
+                     <li><span>2017-2019</span><br>Intermediate from B.B.S.S.M Inter College, Meerut<br>Percentage : <span>85</span></li>
+
+                     <li><span>2019-2023</span><br>B.Tech(CS) from Kanpur Institute of Technology, Kanpur<br>CGPA : <span>7.99</span></li>
+                  </ul>
+               </div>
+               <div id="Experience" class="tab-contents">
+                  <ul>
+                     <li><span>2022-2022</span><br>Junior Web Developer(Intern) at My Digital Marketer</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!--                       skill              -->
+
+   <section id="skill">
+      <div class="container">
+         <h2 class="sub-title">My Skills</h2>
+         <div class="skill-sets">
+            <div class="skill-set">
+               <h3 class="skill-title">Frontend Development</h3>
+               <div class="frontend-skill">
+                  <div class="skill-set-col-1">
+                     <div class="skill-item">
+                        <i class="fa-solid fa-circle-check "></i>
+                        <div class="content">
+                           <h3>Html</h3>
+                           <p>Experienced</p>
+                        </div>
+                     </div>
+                     <div class="skill-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <div class="content">
+                           <h3>CSS</h3>
+                           <p>Experienced</p>
+                        </div>
+                     </div>
+                     <div class="skill-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <div class="content">
+                           <h3>JavaScript</h3>
+                           <p>Intermediate</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="skill-set-col-2">
+                     <div class="skill-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <div class="content">
+                           <h3>Bootstrap</h3>
+                           <p>Intermediate</p>
+                        </div>
+                     </div>
+                     <div class="skill-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <div class="content">
+                           <h3>React JS</h3>
+                           <p>Basic</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="skill-set skill-set-1">
+               <h3 class="skill-title">Backend Development</h3>
+               <div class="backend-skill">
+                  <div class="skill-set-col-1">
+                     <div class="skill-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <div class="content">
+                           <h3>Node JS</h3>
+                           <p>Basic</p>
+                        </div>
+                     </div>
+                     <div class="skill-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <div class="content">
+                           <h3>Express JS</h3>
+                           <p>Basic</p>
+                        </div>
+                     </div>
+                     <div class="skill-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <div class="content">
+                           <h3>Git</h3>
+                           <p>Basic</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="skill-set-col-2">
+                     <div class="skill-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <div class="content">
+                           <h3>Python</h3>
+                           <p>Intermediate</p>
+                        </div>
+                     </div>
+                     <div class="skill-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <div class="content">
+                           <h3>C</h3>
+                           <p>Intermediate</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--                   portfolio               -->
+
+   <section id="portfolio">
+      <div class="container">
+         <h2 class="sub-title">My Work</h2>
+         <div class="work-list">
+            <div class="work">
+               <img src="./images/work-1.png" alt="">
+               <div class="layer">
+                  <h3>College Quora</h3>
+                  <p>College Quora is a MERN stack project.College quora is one stop solution for any kind of college related doubts or problems.Students can register on this platform with their college email-id and have the access to post the questions.</p>
+                  <div class="btns">
+                     <a href="" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                     </a>
+                     <a href="https://github.com/Otaku-Om/College-Quora.git" target="_blank">
+                        <i class="fa-solid fa-code"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="work">
+               <img src="./images/work-2.png" alt="">
+               <div class="layer">
+                  <h3>Food Webpage</h3>
+                  <p>This page offer a wide range of effects with exquisite animation  such as overlay effect, hover effect which adds a dynamic and interactive feel to the website.Our landing page is designed with HTML, CSS, and JS ensuring that the design and user experience is of the highest quality.</p>
+                  <div class="btns">
+                     <a href="https://exquisite-squirrel-16144b.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i>
+                     </a>
+                     <a href="https://github.com/Otaku-Om/My-Projects/tree/4a1aa715778e6c726e1078e15f5f595dc7e34a0f/Food%20web%20Landing%20Page(using%20flex%20box)" target="_blank">
+                        <i class="fa-solid fa-code"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="work">
+               <img src="./images/work-3.png" alt="">
+               <div class="layer">
+                  <h3>Travel Webpage</h3>
+                  <p>This travel website has an exquisite black and red color theme with a 3-page layout for Home, About and Contact. The Home page includes a hero section, navbar, and details of destinations.It is designed using HTML and CSS.</p>
+                  <div class="btns">
+                     <a href="https://classy-profiterole-b260d5.netlify.app/" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i></a>
+                     <a href="https://github.com/Otaku-Om/My-Projects/tree/4a1aa715778e6c726e1078e15f5f595dc7e34a0f/Travel%20Landing%20Page%20project(using%20float)" target="_blank">
+                        <i class="fa-solid fa-code"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="work">
+               <img src="./images/work-2.png" alt="">
+               <div class="layer">
+                  <h3>Internet Mogul's</h3>
+                  <p> One of my first assignments as a intern at MDM was to create a landing page for Internet Moguls. I used my every bit of skill to enhance the look of the page and the result was a visually stunning page that was a testament to my skill.</p>
+                  <div class="btns">
+                     <a href="https://clever-smakager-bc70bd.netlify.app" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i></a>
+                     <a href="https://github.com/Otaku-Om/My-Intern-Work.git" target="_blank">
+                        <i class="fa-solid fa-code"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <a href="#" class="btn">See more</a>
+      </div>
+   </section>
+   <!--                    contact                               -->
+
+   <section id="contact">
+      <div class="container">
+         <div class="contact-box">
+            <p>Get In Touch</p>
+            <h2 class="sub-title">Contact Me</h2>
+            <div class="contact-details">
+               <div class="contact-detail">
+                  <i class="fa-solid fa-paper-plane fa-bounce"></i>
+                  <span>saxenaom63975@gmail.com</span>
+               </div>
+               <div class="contact-detail">
+                  <i class="fa-solid fa-square-phone-flip fa-bounce"></i>
+                  <span>+91-6397539738</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   
+</body>
+</html>
